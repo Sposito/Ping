@@ -9,7 +9,9 @@ public class GameBuilder : MonoBehaviour {
 	GameObject rightPad;
 	GameObject ball;
 	GameObject floor;
-	void Awake () {
+
+	void Start () {
+		
 		Material blackMat = new Material (Shader.Find("Standard"));
 		blackMat.color = HexColor.ToColor ("444455");
 

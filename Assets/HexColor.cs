@@ -7,13 +7,13 @@ using System.Collections.Generic;
 /// </summary>
 public class HexColor:MonoBehaviour {
 
-	public  HexColor(string hex){
+	/*public  HexColor(string hex){
 		hex.ToUpper ();
 		float r;
 		float g;
 		float b;
 	
-	}
+	}*/
 
 	public static Color ToColor(string hex){
 		hex.ToUpper ();
